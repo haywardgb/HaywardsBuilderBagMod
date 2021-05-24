@@ -1,7 +1,3 @@
-// You can edit and repack this to your hearts content 
-// Feel free to give me credit and or a donation: paypal.me/hayward72
-// Share and share-alike. Thank you :)
-
 class CfgPatches
 {
 	class Haywards_Builder_Bag_Mod
@@ -57,10 +53,10 @@ class CfgVehicles
 
 	class Clothing;
 	class AliceBag_ColorBase;
-	class Builders_Bag: AliceBag_ColorBase // Builders Backpack
+	class Builders_Bag_Yellow: AliceBag_ColorBase // Builders Backpack
 	{
 		scope=2;
-		displayName="Builders Bag";
+		displayName="Builders Bag - Yellow";
 		descriptionShort="Can we build it? YES WE CAN!";
 		model="\dz\characters\backpacks\alicebackpack_g.p3d";
 		inventorySlot[]=
@@ -106,17 +102,17 @@ class CfgVehicles
 		visibilityModifier=0.69999999;
 		hiddenSelectionsTextures[]=
 		{
-			"\HaywardsBuilderBagMod\data\alicebackpack_buildermod_co.paa",
-			"\HaywardsBuilderBagMod\data\alicebackpack_buildermod_co.paa",
-			"\HaywardsBuilderBagMod\data\alicebackpack_buildermod_co.paa"
+			"\HaywardsBuilderBagMod\data\builderbag_alicepack_yellow_co.paa",
+			"\HaywardsBuilderBagMod\data\builderbag_alicepack_yellow_co.paa",
+			"\HaywardsBuilderBagMod\data\builderbag_alicepack_yellow_co.paa"
 		};
 		
 	};
 	
 	class Builders_Bag_Blue: AliceBag_ColorBase // Builders Backpack
 	{
-		scope=2;
-		displayName="Builders Bag";
+		scope=2; 
+		displayName="Builders Bag - Blue";
 		descriptionShort="Can we build it? YES WE CAN!";
 		model="\dz\characters\backpacks\alicebackpack_g.p3d";
 		inventorySlot[]=
